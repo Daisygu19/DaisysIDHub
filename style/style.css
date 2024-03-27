@@ -66,6 +66,21 @@ body {
 }
 */
 
+.contact__div {
+    width: 100%;
+    margin: 0;
+    padding: 20%;
+}
+
+form {
+    text-align: left;
+    font-weight:100;
+}
+
+#comment_box {
+    height: 10rem;
+}
+
 footer {
     position: relative;
     bottom: 0;

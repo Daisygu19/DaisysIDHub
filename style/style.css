@@ -4,11 +4,25 @@ body {
     font-weight: 200;
     font-style: normal;
     height: 100%;
-    background: linear-gradient(#ffffff, #ecdcbb);
+}
+
+nav{
+    background-color: white;
+}
+
+.Heading__text {
+    margin-top: 5%;
+    margin-bottom: -5%;
 }
 
 #bio_Section {
-    margin: 5%;
+    margin: 10%;
+    padding: 5%;
+    border: solid black;
+   border-width:thin;
+   border-radius: 2rem;
+   background-color: rgb(226, 246, 196);
+   box-shadow: 5px 5px;
 }
 
 .CardContainer {
@@ -20,8 +34,10 @@ body {
    width: fit-content;
    height: fit-content;
    margin: auto;
-   padding: 2%;
+   padding: 5%;
    margin-bottom: 10rem;
+   background-color: cornflowerblue;
+   box-shadow: 5px 5px;
 }
 
 .card-group {

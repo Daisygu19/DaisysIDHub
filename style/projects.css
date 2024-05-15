@@ -1,0 +1,52 @@
+body {
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    height: 100%;
+}
+
+.social {
+    display: flex;
+    position: fixed;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+.Heading__text {
+    margin-top: 5%;
+    margin-bottom: -5%;
+}
+
+.CardContainer {
+    display: flex;
+    justify-content: center;
+    border: solid black;
+    border-width:thin;
+    border-radius: 4rem;
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+    padding: 5%;
+    margin-bottom: 10rem;
+    background-color: cornflowerblue;
+    box-shadow: 5px 5px;
+ }
+
+ #ReactJSJobAid {
+    margin: 10%;
+    padding: 5%;
+    border: solid black;
+   border-width:thin;
+   border-radius: 2rem;
+   background-color: rgb(198, 169, 248);
+   box-shadow: 5px 5px;
+ }
+
+ #reactjsinstallimg {
+    box-shadow: 5px 5px;
+    border: solid black;
+   border-width:thin;
+   border-radius: 2rem;
+ }

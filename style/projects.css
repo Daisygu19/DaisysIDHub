@@ -6,6 +6,10 @@ body {
     height: 100%;
 }
 
+nav{
+    text-align: center;
+}
+
 .social {
     display: flex;
     position: fixed;
@@ -14,9 +18,34 @@ body {
     transform: translateY(-50%);
 }
 
+.contact-ref {
+    display: flex;
+    position: fixed;
+    bottom: 5%;
+    right: 2%;
+    transform: translateY(-50%);
+
+   border: solid black;
+   border-width:thin;
+   border-radius: 150px;
+   width: fit-content;
+   height: fit-content;
+   margin: auto;
+   padding: 2%;
+   background-color: rgb(248, 250, 153);
+   box-shadow: 5px 5px;
+}
+
 .Heading__text {
     margin-top: 5%;
     margin-bottom: -5%;
+}
+
+.projects-hero {
+    height:100vh;
+    background: url('/images/Projects-hero-img.jpg');
+    background-size:cover;
+    position:relative;
 }
 
 .CardContainer {
@@ -30,8 +59,15 @@ body {
     margin: auto;
     padding: 5%;
     margin-bottom: 10rem;
-    background-color: cornflowerblue;
+    background-color: rgb(245, 184, 110);
     box-shadow: 5px 5px;
+ }
+
+ .card {
+    margin: 5%;
+    box-shadow: 5px 5px;
+    border: solid black;
+   border-width:thin;
  }
 
  #ReactJSJobAid {
